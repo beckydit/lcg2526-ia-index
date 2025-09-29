@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "iki-mono-variable", sans-serif;
+    font-variation-settings: "wght" 500, "wdth" 100;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #D94F67;
+    padding: 30px 40px;
+    position: sticky;
+    z-index: 10;
+    margin-bottom: 100px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: "iki-mono-variable", sans-serif;
+    font-variation-settings: "wght" 700, "wdth" 100;
+    color: #ffffff;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.header h1 .subtitle {
+    font-variation-settings: "wght" 500, "wdth" 100;
+    display: block;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.polimi-logo {
+    height: 120px;
+    margin-left: 40px;
+}
+
+p {
+    font-variation-settings: "wght" 500, "wdth" 100;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+
+.class-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.class-grid li {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-variation-settings: "wght" 500, "wdth" 100; 
+}
+
+.class-grid li:hover {
+    background-color: #b6d7a8;
+    transform: scale(1.05);
+}
+
+.class-grid a {
+    font-family: "iki-mono-variable", sans-serif;
+    font-variation-settings: "wght" 500, "wdth" 100;
+    text-decoration: none;
+    color: #D94F67;
+    transition: color 0.3s ease;
+}
+
